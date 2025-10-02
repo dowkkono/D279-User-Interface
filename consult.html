@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <title>Consultation</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <img id="imglogo1" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+                <img id="namelogo" src="ppp.png" alt="name logo" width="700vw">
+                <img id="imglogo2" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+            </header>
+        </div>
+        <div>
+            <ul class="crumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href ="consult.html">Consultation</a></li>
+            </ul>
+            <h2>Evidenced-based pet care advice for every pet lover</h2>
+        </div>
+        <div id="searchnlink">
+            <div id="search">
+                <input type="text" id="search" placeholder="Search">
+                <button>Go!</button>
+            </div>
+            <div id="alllinks">
+                <form name="linkmenu">All Related Links:</form>
+                <select id="linkmenu" name="Links">
+                    <option value="https://theshelterpetproject.org/">General Adoption Resources</option>
+                    <option value="https://www.aspca.org/">ASPCA</option>
+                    <option value="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">Fish Rescue</option>
+                    <option value="https://savethesnakes.org/snakerescuecall/">Snake Rescue</option>
+                    <option value="https://ftlob.rescuegroups.org/">Bird Rescue</option>
+                    <option value="https://www.aspca.org/pet-care/cat-care/cat-nutrition-tips">Cat Nutrition Tips</option>
+                    <option value="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.119.005554">AHA Journals</option>
+                    <option value="https://www.aspca.org/pet-care/dog-care/dog-nutrition-tips">Dog Nutrition Tips</option>
+                    <option value="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet">Pet Vaccinations</option>
+                </select>
+                <script type="text/javascript">
+                var urlmenu = document.getElementById( 'linkmenu' );
+                urlmenu.onchange = function() {
+                window.open(  this.options[ this.selectedIndex ].value );
+                };
+                </script>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cat.html">Cats</a></li>
+                <li><a href="dog.html">Dogs</a></li>
+                <li><a href="bird.html">Birds</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="consult.html" class="active">Consultation</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Consultation</h1>
+        <img id="petimg2" src="consult.jpg" alt="consult img" width="300px">
+        <div id="form" class="lastsection">
+            <form action="https://paradigmpetprofessionals.com/consultation" method="POST">
+                <div>
+                    <label for="name" id="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="phone" id="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="Phone number" required>
+                </div>
+                <div>
+                    <label for="email" id="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="time" id="time">Timezone:</label>
+                    <input type="text" id="time" placeholder="Timezone" required>
+                </div>
+                <div>
+                    <label for="petname" id="petname">Pet's name:</label>
+                    <input type="text" id="petname" placeholder="Pet's name" required>
+                </div>
+                <div>
+                    <div>
+                        <p class="pettype">Pet type:</p>
+                    </div>
+                    <div>
+                        <label for="pettype">Cat</label>
+                        <input type="radio" name="pettype" id="pettype" value="Cat" required>
+                    </div>
+                    <div>
+                        <label for="pettype">Dog</label>
+                        <input type="radio" name="pettype" id="pettype" value="Dog" required>
+                    </div>
+                    <div>
+                        <label for="pettype">Bird</label>
+                        <input type="radio" name="pettype" id="pettype" value="Bird" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="age" id="age">Age:</label>
+                    <input type="text" id="age" placeholder="Age" required>
+                </div>
+                <div id="button">
+                    <button>Submit!</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Contact</p>
+            <p>Phone number: ***-***-****</p>
+            <p>Email: paradigmpetprofessionals@aol.com</p>
+            <p>&copy; 2025 Paradigm Pet Professionals. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

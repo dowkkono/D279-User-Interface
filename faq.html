@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <title>FAQ</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <img id="imglogo1" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+                <img id="namelogo" src="ppp.png" alt="name logo" width="700vw">
+                <img id="imglogo2" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+            </header>
+        </div>
+        <div>
+            <ul class="crumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href ="faq.html">FAQ</a></li>
+            </ul>
+            <h2>Evidenced-based pet care advice for every pet lover</h2>
+        </div>
+        <div id="searchnlink">
+            <div id="search">
+                <input type="text" id="search" placeholder="Search">
+                <button>Go!</button>
+            </div>
+            <div id="alllinks">
+                <form name="linkmenu">All Related Links:</form>
+                <select id="linkmenu" name="Links">
+                    <option value="https://theshelterpetproject.org/">General Adoption Resources</option>
+                    <option value="https://www.aspca.org/">ASPCA</option>
+                    <option value="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">Fish Rescue</option>
+                    <option value="https://savethesnakes.org/snakerescuecall/">Snake Rescue</option>
+                    <option value="https://ftlob.rescuegroups.org/">Bird Rescue</option>
+                    <option value="https://www.aspca.org/pet-care/cat-care/cat-nutrition-tips">Cat Nutrition Tips</option>
+                    <option value="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.119.005554">AHA Journals</option>
+                    <option value="https://www.aspca.org/pet-care/dog-care/dog-nutrition-tips">Dog Nutrition Tips</option>
+                    <option value="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet">Pet Vaccinations</option>
+                </select>
+                <script type="text/javascript">
+                var urlmenu = document.getElementById( 'linkmenu' );
+                urlmenu.onchange = function() {
+                window.open(  this.options[ this.selectedIndex ].value );
+                };
+                </script>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cat.html">Cats</a></li>
+                <li><a href="dog.html">Dogs</a></li>
+                <li><a href="bird.html">Birds</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="consult.html">Consultation</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Frequently Asked Questions</h1>
+        <p id="about">Our “Pexperts” typically encounter the following questions when consulting with prospective “pet parents:”</p>
+        <h3>Cats</h3>
+        <h3>Dogs</h3>
+        <h3>Birds</h3>
+        <p class="ques">Question: How long can I expect my pet bird to live?</p>
+        <section id="captions">The answer can vary widely depending on the type of bird, the size, the environment, and of course, mother nature. Assuming all is well in the external factors that are out of the owner's control, cockatiels and budgies live up to 20 years old on average. However, many parrot variations are known to live nearly an astounding 100 years! As with many living organisms, longevity can be increased by keeping annual veterinarian visits, maintaining a healthy diet, and keeping your feathery friend's environment sanitary.</section>
+        <h3>Misc</h3>
+        <p class="ques">Question: What is the best way to rid my dog or cat of fleas?</p>
+        <section id="captions" class="lastsection">Sometimes our furry friends pick up hitchhikers that make them very itchy and uncomfortable. If gone unchecked, fleas can infest your home, making it even more difficult to rid them from your loved one’s coat. To eliminate fleas, choose a shampoo specially formulated to kill fleas and be sure to read and follow all instructions on the label. Repeat treatment as necessary until your pet is free of fleas; if you see skin irritation, stop use immediately and contact your local vet.</section>
+        <footer>
+            <p>Contact</p>
+            <p>Phone number: ***-***-****</p>
+            <p>Email: paradigmpetprofessionals@aol.com</p>
+            <p>&copy; 2025 Paradigm Pet Professionals. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

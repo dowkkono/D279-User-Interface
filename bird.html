@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <title>Birds</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <header>
+                <img id="imglogo1" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+                <img id="namelogo" src="ppp.png" alt="name logo" width="700vw">
+                <img id="imglogo2" src="ppplogo.png" alt="img logo" width="150px" height="150px">
+            </header>
+        </div>
+        <div>
+            <ul class="crumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href ="bird.html">Birds</a></li>
+            </ul>
+            <h2>Evidenced-based pet care advice for every pet lover</h2>
+        </div>
+        <div id="searchnlink">
+            <div id="search">
+                <input type="text" id="search" placeholder="Search">
+                <button>Go!</button>
+            </div>
+            <div id="alllinks">
+                <form name="linkmenu">All Related Links:</form>
+                <select id="linkmenu" name="Links">
+                    <option value="https://theshelterpetproject.org/">General Adoption Resources</option>
+                    <option value="https://www.aspca.org/">ASPCA</option>
+                    <option value="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">Fish Rescue</option>
+                    <option value="https://savethesnakes.org/snakerescuecall/">Snake Rescue</option>
+                    <option value="https://ftlob.rescuegroups.org/">Bird Rescue</option>
+                    <option value="https://www.aspca.org/pet-care/cat-care/cat-nutrition-tips">Cat Nutrition Tips</option>
+                    <option value="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.119.005554">AHA Journals</option>
+                    <option value="https://www.aspca.org/pet-care/dog-care/dog-nutrition-tips">Dog Nutrition Tips</option>
+                    <option value="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet">Pet Vaccinations</option>
+                </select>
+                <script type="text/javascript">
+                var urlmenu = document.getElementById( 'linkmenu' );
+                urlmenu.onchange = function() {
+                window.open(  this.options[ this.selectedIndex ].value );
+                };
+                </script>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cat.html">Cats</a></li>
+                <li><a href="dog.html">Dogs</a></li>
+                <li><a href="bird.html" class="active">Birds</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="consult.html">Consultation</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Birds</h1>
+        <img id="petimg2" src="bird.png" alt="bird img" width="350px">
+        <section id="captions">
+            Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, some don't. Birds are amazing and each breed is unique, particularly when it comes to their relational needs and well-being. Unfortunately, birds can experience sadness and depression just like humans. Several root causes may be responsible for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. Some signs to help identify if your bird is experiencing depression may include the following:
+        </section>
+        <div id="list">
+            <ul>
+                <li>reduced appetite</li>
+                <li>becoming increasingly irritable</li>
+                <li>aggressive behavior</li>
+                <li>songs have a different, more solemn tone.</li>
+            </ul>
+        </div>
+        <section id="captions" class="lastsection">
+            Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.
+        </section>
+        <footer>
+            <p>Contact</p>
+            <p>Phone number: ***-***-****</p>
+            <p>Email: paradigmpetprofessionals@aol.com</p>
+            <p>&copy; 2025 Paradigm Pet Professionals. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
